@@ -1,0 +1,103 @@
+[
+    {
+        "name": "leocavalcante/siler",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/leocavalcante/siler.git",
+            "reference": "00d7eec730a41c6173771ea0f8e6db10c7d949a1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/leocavalcante/siler/zipball/00d7eec730a41c6173771ea0f8e6db10c7d949a1",
+            "reference": "00d7eec730a41c6173771ea0f8e6db10c7d949a1",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6.0"
+        },
+        "require-dev": {
+            "phpstan/phpstan": "*",
+            "phpunit/phpunit": "*",
+            "squizlabs/php_codesniffer": "*",
+            "twig/twig": "*",
+            "vlucas/phpdotenv": "*"
+        },
+        "time": "2017-02-14 23:54:29",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "files": [
+                "src/Siler.php",
+                "src/Container/Container.php",
+                "src/Http/Http.php",
+                "src/Http/Request.php",
+                "src/Http/Response.php",
+                "src/Route/Route.php",
+                "src/Dotenv/Dotenv.php",
+                "src/Twig/Twig.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "leocavalcante",
+                "email": "lc@leocavalcante.com"
+            }
+        ],
+        "description": "Keep it simple, stupid",
+        "keywords": [
+            "api",
+            "framework",
+            "micro",
+            "router"
+        ]
+    },
+    {
+        "name": "gabordemooij/redbean",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/gabordemooij/redbean.git",
+            "reference": "3927444051735644b6a78c750743e4a5e3032da2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/gabordemooij/redbean/zipball/3927444051735644b6a78c750743e4a5e3032da2",
+            "reference": "3927444051735644b6a78c750743e4a5e3032da2",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.4"
+        },
+        "time": "2016-12-01 22:43:17",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "RedBeanPHP\\": "RedBeanPHP"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "New BSD and GPLv2"
+        ],
+        "authors": [
+            {
+                "name": "Gabor de Mooij",
+                "email": "gabor@redbeanphp.com",
+                "homepage": "http://redbeanphp.com"
+            }
+        ],
+        "description": "RedBeanPHP ORM",
+        "homepage": "http://redbeanphp.com/",
+        "keywords": [
+            "orm"
+        ]
+    }
+]
